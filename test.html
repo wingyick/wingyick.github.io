@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>工商老闆王- King of Label</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="test.js"></script>
+<link rel="stylesheet" type="text/css" href="test.css">
+</head>
+<body>
+<div id="mapA" class="box">
+<div class="dropdown">
+  <button class="dropbtn">九龍</button>
+  <div class="dropdown-content">
+    <p onclick="changemap('tst.jpg')">尖沙咀</p>
+    <p onclick="changemap('a2.jpg')">area2</p>
+    <p>Link 3</p>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">香港島</button>
+  <div class="dropdown-content">
+    <p>Link 1</p>
+    <p>Link 2</p>
+    <p>Link 3</p>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">新界</button>
+  <div class="dropdown-content">
+    <p>Link 1</p>
+    <p>Link 2</p>
+    <p>Link 3</p>
+  </div>
+</div>
+<br>
+<img id="myImage" src="tst.jpg" usemap="#a1map" style="width:1000px;height:750px;">
+<map name="a1map" id="IMGMAPS">
+  <area id="areaA" shape="poly" coords="783,152,715,349,673,651,724,632,981,407,980,282,912,202" href="#">
+  <area id="areaB" shape="poly" coords="418,108,681,108,754,134,704,295,433,358" href="#">
+  <area id="areaC" shape="poly" coords="436,376,699,314,647,644,451,658" href="#">
+  <area id="areaD" shape="poly" coords="198,492,418,481,423,734,242,743" href="#">
+  <area id="areaE" shape="poly" coords="129,260,225,745,92,747,66,276" href="#">
+  <area id="areaF" shape="poly" coords="522,95,520,8,153,8,158,104" href="#">
+</map>
+</div>
+</div>
+
+<div id="tbl" class="box"></div>
+<div id="tbl1" class="box"></div>
+
+
+
+</body>
+</html>
